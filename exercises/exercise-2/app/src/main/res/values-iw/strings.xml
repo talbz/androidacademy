@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מדריך ללונדון</string>
+    <string name="details">אחלה עיר. עתיקה ממש. בואו. אחלה.</string>
+    <string name="founded">נוסדה:</string>
+    <string name="dateFounded">50 לספירה</string>
+    <string name="population">אוכלוסיה:</string>
+    <string name="pupulationData">8.788  מיליון</string>
+    <string name="labelDetails">פרטים:</string>
+    <string name="learnMore">קרא עוד!</string>
+    <string name="funFactsInfo1">הרכבת התחתית, ברובה מעל הקרקע.</string>
+    <string name="funFactsInfo2">בלונדון התל\"ג גבוהה מאוד.</string>
+    <string name="funFactsInfo3">בכדי להיות נהג מונית יש לשנן את רחובות לונדון. ולהבחן על זה. מדובר על השקעה של כמה שנות לימוד ושינון.</string>
+    <string name="labelFunFacts">3 עובדות מעניינות:</string>
+    <string name="labelPictures">תמונות:</string>
+    <string name="welcome_to_london">ברוכים הבאים ללונדון</string>
+    <string name="bulletSpace">•</string>
+    <string name="en">EN</string>
+    <string name="he">HE</string>
+</resources>

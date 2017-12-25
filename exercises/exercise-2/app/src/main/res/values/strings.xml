@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">City Guide</string>
+    <string name="details">London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times.</string>
+    <string name="founded">Founded:</string>
+    <string name="dateFounded">50 AD</string>
+    <string name="population">Population:</string>
+    <string name="pupulationData">8.788 million</string>
+    <string name="labelDetails">Details:</string>
+    <string name="learnMore">Learn More!</string>
+    <string name="funFactsInfo1">More than half of the London Underground network in fact runs above ground.</string>
+    <string name="funFactsInfo2">The GDP of London is significantly larger than that of several European countries, including Belgium and Sweden.</string>
+    <string name="funFactsInfo3">To get a London taxi license, you have to prove that you know every single street and landmark in London. It’s called “The Knowledge” and takes 2–4 years to memorize.</string>
+    <string name="labelFunFacts">Top 3 Fun Facts:</string>
+    <string name="bulletSpace">•</string>
+    <string name="labelPictures">Pictures:</string>
+    <string name="welcome_to_london">Welcome to London</string>
+    <string name="en">EN</string>
+    <string name="he">HE</string>
+</resources>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.talb.exercise2.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageLondon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/london" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/imageLondon"
+            android:paddingBottom="10dp"
+            android:paddingStart="@dimen/headingPadding"
+            android:text="@string/welcome_to_london"
+            android:textColor="@color/white"
+            android:textSize="27sp" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/imageLondon"
+            android:layout_alignTop="@id/imageLondon"
+            android:layout_marginStart="10dp"
+            android:id="@+id/toggleLang"
+            android:textOn="@string/en"
+            android:textOff="@string/he"
+            android:onClick="changeLang"
+            />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp"
+            android:paddingTop="@dimen/paddingTop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/founded"
+                    android:textSize="@dimen/bigTextSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/marginLeft"
+                    android:text="@string/dateFounded"
+                    android:textSize="@dimen/bigTextSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/smallMarginLeft"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/population"
+                    android:textSize="@dimen/bigTextSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/smallMarginLeft"
+                    android:text="@string/pupulationData"
+                    android:textSize="@dimen/bigTextSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/bigMarginTop"
+                    android:text="@string/labelDetails"
+                    android:textSize="@dimen/bigTextSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop"
+                android:text="@string/details"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/bigMarginTop"
+                    android:text="@string/labelFunFacts"
+                    android:textSize="@dimen/bigTextSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marginTop">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="13dp"
+                            android:layout_column="1"
+                            android:paddingEnd="@dimen/paddingLeftBullet"
+                            android:text="@string/bulletSpace" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_column="2"
+                            android:paddingEnd="@dimen/paddingLeftBullet"
+                            android:text="@string/funFactsInfo1"></TextView>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:text="@string/bulletSpace"
+                            android:paddingEnd="@dimen/paddingLeftBullet" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_column="2"
+                            android:paddingEnd="@dimen/paddingLeftBullet"
+                            android:text="@string/funFactsInfo2"></TextView>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:text="@string/bulletSpace"
+                            android:paddingEnd="@dimen/paddingLeftBullet"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_column="2"
+                            android:paddingEnd="@dimen/paddingLeftBullet"
+                            android:text="@string/funFactsInfo3"></TextView>
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTop"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/bigMarginTop"
+                    android:text="@string/labelPictures"
+                    android:textSize="@dimen/bigTextSize"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                android:src="@drawable/bigben"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_height="wrap_content" android:padding="5dp"
+                android:src="@drawable/bridge"/>
+            <ImageView
+                android:scaleType="fitEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:padding="5dp"
+                android:src="@drawable/guards"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLondonsWiki"
+                android:text="@string/learnMore" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

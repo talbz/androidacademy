@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginLeft">10dp</dimen>
+    <dimen name="smallMarginLeft">5dp</dimen>
+    <dimen name="bigTextSize">16sp</dimen>
+    <dimen name="marginTop">5dp</dimen>
+    <dimen name="bigMarginTop">10dp</dimen>
+    <dimen name="detailedText">13sp</dimen>
+    <dimen name="paddingTop">10dp</dimen>
+    <dimen name="paddingHorizontal">20dp</dimen>
+    <dimen name="paddingLeftBullet">10dp</dimen>
+    <dimen name="headingSize">25sp</dimen>
+    <dimen name="headingPadding">20dp</dimen>
+</resources>
