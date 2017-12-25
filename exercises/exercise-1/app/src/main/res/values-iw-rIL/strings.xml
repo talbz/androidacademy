@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">תרגיל 1</string>
+    <string name="enter_your_email_here">נא לרשום פה את ההודעה...</string>
+    <string name="we_love_android">אנו אוהבים את אנדרויד!</string>
+    <string name="email">אימייל</string>
+    <string name="activity">פעילות</string>
+</resources>

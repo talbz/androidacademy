@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.talb.lesson1.MainActivity">
+
+
+    <EditText
+        android:id="@+id/muki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/viewLayoutMarginHorizontal"
+        android:layout_marginEnd="@dimen/viewLayoutMarginHorizontal"
+        android:layout_marginTop="@dimen/viewLayoutMarginVertical"
+        android:layout_marginBottom="@dimen/viewLayoutMarginVertical"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/colorAccent"
+        android:hint="@string/enter_your_email_here" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/viewLayoutMarginHorizontal"
+        android:layout_marginEnd="@dimen/viewLayoutMarginHorizontal"
+        android:layout_marginTop="@dimen/viewLayoutMarginVertical"
+        android:layout_marginBottom="@dimen/viewLayoutMarginVertical"
+        android:background="@color/color1"
+        android:onClick="openActivity"
+        android:text="@string/activity" />
+
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/viewLayoutMarginHorizontal"
+        android:layout_marginEnd="@dimen/viewLayoutMarginHorizontal"
+        android:layout_marginTop="@dimen/viewLayoutMarginVertical"
+        android:layout_marginBottom="@dimen/viewLayoutMarginVertical"
+        android:background="@color/color2"
+        android:onClick="openEmail"
+        android:text="@string/email" />
+    </LinearLayout>
+    <!--<Button-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginStart="@dimen/viewLayoutMarginHorizontal"-->
+        <!--android:layout_marginEnd="@dimen/viewLayoutMarginHorizontal"-->
+        <!--android:layout_marginTop="@dimen/viewLayoutMarginVertical"-->
+        <!--android:layout_marginBottom="@dimen/viewLayoutMarginVertical"-->
+        <!--android:la="true"-->
+        <!--android:background="@color/color1"-->
+        <!--android:onClick="openActivity"-->
+        <!--android:text="@string/activity" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_gravity="bottom">-->
+
+        <!--<Button-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="@dimen/viewLayoutMarginHorizontal"-->
+        <!--android:layout_marginEnd="@dimen/viewLayoutMarginHorizontal"-->
+        <!--android:layout_marginTop="@dimen/viewLayoutMarginVertical"-->
+        <!--android:layout_marginBottom="@dimen/viewLayoutMarginVertical"-->
+        <!--android:background="@color/color1"-->
+        <!--android:onClick="openActivity"-->
+        <!--android:text="@string/activity" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="@dimen/viewLayoutMarginHorizontal"-->
+        <!--android:layout_marginEnd="@dimen/viewLayoutMarginHorizontal"-->
+        <!--android:layout_marginTop="@dimen/viewLayoutMarginVertical"-->
+        <!--android:layout_marginBottom="@dimen/viewLayoutMarginVertical"-->
+        <!--android:background="@color/color2"-->
+        <!--android:onClick="openEmail"-->
+        <!--android:text="@string/email" />-->
+    <!--</LinearLayout>-->
+</RelativeLayout>

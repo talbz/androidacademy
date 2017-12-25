@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lesson 1</string>
+    <string name="enter_your_email_here">Type your message here...</string>
+    <string name="activity">Activity</string>
+    <string name="email">Email</string>
+    <string name="we_love_android">We love Android!</string>
+</resources>
