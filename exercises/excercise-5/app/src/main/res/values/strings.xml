@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Image Search</string>
-    <string name="search">Search</string>
-    <string name="hitNum">No results</string>
-    <string name="editBoxHint">Enter an image description</string>
-</resources>
